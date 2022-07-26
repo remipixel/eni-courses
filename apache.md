@@ -92,3 +92,32 @@ Listen 192.168.1.2:81
     </Directory>
 </VirtualHost>
 ```
+
+## Fichier /etc/apache2/apache2.conf
+
+Désactiver les options avec le symbole `-`.
+Options désactivées = sécurité
+
+```
+<Directory />
+    AllowOverride None
+    Options -Indexes -FollowSymLinks
+    Require all denied
+</Directory>
+
+<Directory /usr/share/>
+    AllowOverride None
+    Require all granted
+</Directory>
+
+<Directory /var/www/>
+    AllowOverride None
+    Require all granted
+</Directory>
+
+<Directory /srv/>
+    AllowOverride None
+    Options Indexes FollowSymLinks
+    Require all granted
+</Directory>
+```
