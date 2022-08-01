@@ -145,6 +145,22 @@ Créer le fichier /etc/apache2/sites-available/glpi.conf
 </VirtualHost>
 ```
 
+Vérifier les droits 
+```
+find /var/www/glpi -type d -exec chmod 2770 {} \;
+find /var/www/glpi -type f -exec chmod 660 {} \;
+chmown -R glpi: /var/www/glpi
+find /etc/glpi -type d -exec chmod 2770 {} \;
+find /etc/glpi -type f -exec chmod 660 {} \;
+chown -R glpi: /etc/glpi
+find /var/lib/glpi -type d -exec chmod 2770 {} \;
+find /var/lib/glpi -type f -exec chmod 660 {} \;
+chown -R glpi: /var/lib/glpi
+find /var/log/glpi -type d -exec chmod 2770 {} \;
+find /var/log/glpi -type f -exec chmod 660 {} \;
+chown -R glpi: /var/log/glpi
+```
+
 Publier le site internet 
 ```
 a2ensite glpi.conf
