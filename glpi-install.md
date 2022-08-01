@@ -154,7 +154,11 @@ Rédemarrer apache2
 
 ### Configuration DNS
 
-Ajouter un enregistrement A dans le DNS pour glpi : 
+Ajouter un enregistrement A dans le DNS pour le serveur et un CNAME pour le site : 
 ```
-192.168.*.* glpi.olympus.gr
+A : 192.168.1.15 serveur.olympus.gr
+CNAME : glpi.ollympus.gr
 ```
+
+### Accèes GLPI
+Accédez à GLPI via l'adresse indiquée dans le CNAME
