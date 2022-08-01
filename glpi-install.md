@@ -129,3 +129,32 @@ Donner les droits en récursif sur le dossier /var/www/glpi/marketplace et véri
 ``` 
 chown -R www-data: /var/www/glpi/marketplace
 ```
+
+### Configurer le vHost Apache2 pour GLPI
+
+Créer le fichier /etc/apache2/sites-available/glpi.conf
+```
+<VirtualHost *:80>
+     Documentroot /var/www/glpi
+     ServerName glpi.olympus.gr
+     <Directory /var/www/glpi>
+     AllowOverride none
+     Options Indexes FollowSymLinks Multiviews
+     Require all granted
+     </Directory>
+</VirtualHost>
+```
+
+Publier le site internet 
+```
+a2ensite glpi.conf
+```
+
+Rédemarrer apache2
+
+### Configuration DNS
+
+Ajouter un enregistrement A dans le DNS pour glpi : 
+```
+192.168.*.* glpi.olympus.gr
+```
