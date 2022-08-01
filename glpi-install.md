@@ -161,4 +161,4 @@ CNAME : glpi.olympus.gr
 ```
 
 ### Accès GLPI
-Accédez à GLPI via l'adresse indiquée dans le CNAME http://glpi.olympus.gr
+Accédez à GLPI via l'adresse indiquée dans le CNAME http://glpi.olympus.gr et suivez l'installation graphique. Connectez-vous ensuite.
