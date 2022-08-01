@@ -160,5 +160,5 @@ A : 192.168.1.15 serveur.olympus.gr
 CNAME : glpi.ollympus.gr
 ```
 
-### Accèes GLPI
+### Accès GLPI
 Accédez à GLPI via l'adresse indiquée dans le CNAME
