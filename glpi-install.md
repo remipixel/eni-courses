@@ -157,8 +157,8 @@ Rédemarrer apache2
 Ajouter un enregistrement A dans le DNS pour le serveur et un CNAME pour le site : 
 ```
 A : 192.168.1.15 serveur.olympus.gr
-CNAME : glpi.ollympus.gr
+CNAME : glpi.olympus.gr
 ```
 
 ### Accès GLPI
-Accédez à GLPI via l'adresse indiquée dans le CNAME
+Accédez à GLPI via l'adresse indiquée dans le CNAME http://glpi.olympus.gr
