@@ -26,9 +26,14 @@ Installation de mariadb-server `mysql_secure_installation`
 - Reload privileges now : y
 
 Se connecter au shell MySQL : `mysql -u root -p`
+
 Créer un utilisateur : `CREATE USER 'new_user'@'localhost' IDENTIFIED BY 'password';`
+
 Créer la base de données : `CREATE DATABASE glpidb;`
+
 Vérifier l'existence de la base de données : `show databases;`
+
 Donner les privilèges sur la base de données avec l'utilisateur créé : `grant all privileges on glpidb.* to new_user@localhost identified by 'password';`
+
 Vérifier les privilèges sur la base de données : `show grants for new_user@localhost`
 
