@@ -50,4 +50,6 @@ Enregistrez.
 Pour tester le bon fonctionnement et renouveler votre IP publique, il suffit de redémarrer votre box.
 Dans la console de gestion OVH, vérifiez que l'IP publique a bien été modifiée aussi.
 
-**Attention :** La propagation DNS pouvant être longue, vous devrez peut-être attendre quelques minutes pour accéder à vos serveurs via votre nom de domaine.
+**Attention : La propagation DNS pouvant être longue, vous devrez peut-être attendre quelques minutes pour accéder à vos serveurs via votre nom de domaine.**
+
+Pour en savoir + sur DynHost avec OVH : https://docs.ovh.com/fr/domains/utilisation-dynhost/
