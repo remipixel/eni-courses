@@ -52,6 +52,17 @@ Dans la console de gestion OVH, vérifiez que l'IP publique a bien été modifi�
 
 **Attention : La propagation DNS pouvant être longue, vous devrez peut-être attendre quelques minutes pour accéder à vos serveurs via votre nom de domaine.**
 
+## Créer des enregistrements DNS pour les services hébergés.
+
+Désormais vous pouvez enregistrer des serveurs dans votre zone DNS grace à votre DynDNS.
+Pour chaque nouveau nom, il faut faire un enregistrement CNAME avec comme cible votre sous-domaine DynDNS (mordor.monsuperdomaine.fr)
+
+Exemple :
+```
+minecraft IN CNAME mordor.monsuperdomaine.fr.
+```
+
+
 Pour en savoir + sur DynHost avec OVH : https://docs.ovh.com/fr/domains/utilisation-dynhost/
 
 Configurer le DynDNS sur la Livebox 4/5 : https://assistance.orange.fr/livebox-modem/toutes-les-livebox-et-modems/installer-et-utiliser/piloter-et-parametrer-votre-materiel/le-parametrage-avance-reseau-nat-pat-ip/dns/livebox-configurer-un-service-dns-dynamique_188820-730441
