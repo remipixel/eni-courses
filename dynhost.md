@@ -62,9 +62,14 @@ Exemple :
 minecraft IN CNAME mordor.monsuperdomaine.fr.
 ```
 
+## Configurer les règles de NAT pour permettre l'ouverture des ports sur les différents services hébergés. 
 
+Configurer l'accès à serveur hébergé derrière une Livebox : https://assistance.orange.fr/livebox-modem/toutes-les-livebox-et-modems/installer-et-utiliser/piloter-et-parametrer-votre-materiel/le-parametrage-avance-reseau-nat-pat-ip/dns/livebox-le-loopback_243342-785338
+
+
+## En savoir plus :
 Pour en savoir + sur DynHost avec OVH : https://docs.ovh.com/fr/domains/utilisation-dynhost/
 
 Configurer le DynDNS sur la Livebox 4/5 : https://assistance.orange.fr/livebox-modem/toutes-les-livebox-et-modems/installer-et-utiliser/piloter-et-parametrer-votre-materiel/le-parametrage-avance-reseau-nat-pat-ip/dns/livebox-configurer-un-service-dns-dynamique_188820-730441
 
-Configurer l'accès à serveur hébergé derrière une Livebox : https://assistance.orange.fr/livebox-modem/toutes-les-livebox-et-modems/installer-et-utiliser/piloter-et-parametrer-votre-materiel/le-parametrage-avance-reseau-nat-pat-ip/dns/livebox-le-loopback_243342-785338
+
