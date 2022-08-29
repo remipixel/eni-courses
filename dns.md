@@ -19,5 +19,28 @@ Insérer un schéma fonctionnement de DNS
 
 
 ## Configuration d'un service DNS Linux
-### Installation
+Bind9 est un service DNS historique et multiplateforme, Linux & Windows. 
+Sa configuration se fati autour de 4 fichiers : 
+- named.conf => utilisé pour les ACL
+- named.conf.options => options actives pour toute la config
+- named.conf.local => configurer les zones dns locales
+- named.conf.default-zone => zones par défaut
+- 
+
+### Installation du paquet
+```
+apt install bind9 -y
+```
+### Configuration des domaines
+
+
+```
+
+```
+### Configuration des zones DNS
+```
+
+```
+
+### 
 ## Configuration d'un service DNS avec Windows Server
